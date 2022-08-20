@@ -1,0 +1,39 @@
+.boxcontainer{
+    color:rgb(14, 12, 12);
+    background-color: #F1F1F1;
+    object-fit:cover;
+    padding: 34px 34px 34px 60px;
+    margin:150px auto;
+    width:400px;
+}
+#text
+{
+    width:250px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin:5px;
+    padding:10px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+input[type="button"]{
+    width:150px;
+    height:40px;
+    margin:20px 100px;
+    background-color: rgb(43, 160, 180);
+ }  
+ input[type="button"]:hover
+ {
+    background-color: rgb(221, 109, 109);
+ }
+ input[type="button"]:active
+ {
+   background-color: rgb(17, 184, 58);
+ }
+ h1
+ {
+     margin:10px 50px;
+ }
